@@ -228,12 +228,19 @@ a {
 body {
   background: #f9f9f9;
 }
+$media_max: 1017px;
 
 .header {
   --paper-input-container-input-align: baseline;
   display: block;
   width: 100%;
+  min-width: 1437px;
   background: rgba(255, 255, 255, 0.98);
+
+  @media (max-width: $media_max){
+    min-width: 1027px;
+  }
+
 
   &-content {
     height: 56px;
@@ -347,7 +354,6 @@ body {
 .info-block { grid-area: info; }
 .rec-videos { grid-area: videos; }
 
-$media_max: 1017px;
 .site-content{
   display: grid;
   grid-template-areas:

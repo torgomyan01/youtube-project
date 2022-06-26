@@ -107,7 +107,11 @@ body {
   --paper-input-container-input-align: baseline;
   display: block;
   width: 100%;
+  min-width: 1437px;
   background: rgba(255, 255, 255, 0.98); }
+  @media (max-width: 1017px) {
+    .header {
+      min-width: 1027px; } }
   .header-content {
     height: 56px;
     padding: 0 16px;
