@@ -261,7 +261,8 @@ body {
   .site-content .info-block {
     margin-top: 8px;
     width: 100%;
-    max-width: 1004px; }
+    max-width: 1004px;
+    padding-left: 5px; }
     .site-content .info-block .title-video {
       font-size: 21px;
       line-height: 27px;
